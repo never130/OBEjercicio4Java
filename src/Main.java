@@ -13,5 +13,14 @@ public class Main {
         System.out.println("memoria en gigas: " + samsungJ7.memory);
         System.out.println("memoria agregada en gigas: " + samsungJ7.addMemory);
 
+        SmartWatch googleWatch = new SmartWatch("googleWatch","21", "black", 2021, false,true);
+        googleWatch.fabricante = "googleWatch2";
+
+        System.out.println("Nombre del fabricante: " + googleWatch.fabricante);
+        System.out.println("Nombre del modelo: " + googleWatch.modelo);
+        System.out.println("color: " + googleWatch.color);
+        System.out.println("year: " + googleWatch.year);
+        System.out.println("bluetooth: " + googleWatch.bluetooth);
+        System.out.println("cronometro: " + googleWatch.cronometer);
     }
 }
